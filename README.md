@@ -18,7 +18,7 @@ Es wurden folgende Schritte unternommen um den Server einzurichten:
 
 8. Fail2ban wurde eingerichtet und SSHD wurde entsprechend angepasst
 
-Admin Anmeldedaten:
+Moodle-Admin Anmeldedaten:
 
 
       Username : admin 
