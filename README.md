@@ -21,10 +21,10 @@ Es wurden folgende Schritte unternommen um den Server einzurichten:
 Admin Anmeldedaten:
 
 
-   Username : admin 
+      Username : admin 
 
    
-   Password : Password1*
+      Password : Password1*
 
 
 # Google Search Block für Moodle
