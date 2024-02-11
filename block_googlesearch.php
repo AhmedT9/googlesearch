@@ -33,6 +33,15 @@ class block_googlesearch extends block_base {
         if (!empty($searchResults['items'])) {
             $html = '<ul class="google-search-results">';
             foreach ($searchResults['items'] as $item) {
+                if (strpos($item['link'], 'continue=') !== false) {
+                    $parsedUrl = parse_url($item['link']);
+                    $queryParams = [];
+                    parse_str($parsedUrl['query'], $queryParams);
+                    if (isset($queryParams['continue'])) {
+                        $item['link'] = urldecode($queryParams['continue']);
+                    }
+                }
+
                 $html .= '<li><a href="' . htmlspecialchars($item['link']) . '">' . htmlspecialchars($item['title']) . '</a></li>';
             }
             $html .= '</ul>';
