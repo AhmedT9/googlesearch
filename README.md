@@ -46,7 +46,7 @@ Um den Google Search Block zu erstellen und in Moodle zu integrieren, wurden fol
 # Dateibeschreibungen:
 
 block_googlesearch.php -> 
-Diese Datei definiert die Hauptklasse des Blocks, block_googlesearch, die von block_base erbt. Sie ist verantwortlich für die Initialisierung des Blocks, das Setzen des Blocktitels und das Generieren des Inhalts, der in dem Block angezeigt wird. Die Methode get_content() verwendet die Google Custom Search API, um Suchergebnisse zu einem vordefinierten Suchbegriff ("Tunesien") zu erhalten und diese Ergebnisse in einer formatierten Liste anzuzeigen.
+Diese Datei definiert die Hauptklasse des Blocks, block_googlesearch, die von block_base erbt. Sie ist verantwortlich für die Initialisierung des Blocks, das Setzen des Blocktitels und das Generieren des Inhalts, der in dem Block angezeigt wird. Die Methode get_content() verwendet die Google Custom Search API, um Suchergebnisse zu einem vordefinierten Suchbegriff ("Moodle Blocks") zu erhalten und diese Ergebnisse in einer formatierten Liste anzuzeigen.
 
 styles.css -> 
 Die styles.css Datei enthält CSS-Regeln, die das Aussehen der Suchergebnisse im Block gestalten. Sie definiert Stile für die Liste der Suchergebnisse, wie z.B. das Entfernen von Listenaufzählungszeichen, das Hinzufügen von Abständen zwischen den Ergebnissen und das Anpassen der Farbe und Dekoration der Hyperlinks.
