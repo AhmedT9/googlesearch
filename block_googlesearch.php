@@ -15,7 +15,7 @@ class block_googlesearch extends block_base {
         $this->content         =  new stdClass;
         $this->content->footer = '';
 
-        $url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAGMxTcZt71NgJlUNNVauOuQqXJNObGL8o&cx=954542981e8a640fb&q=Tunesien";
+        $url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAGMxTcZt71NgJlUNNVauOuQqXJNObGL8o&cx=954542981e8a640fb&q=Moodle+Blocks";
 
         $contextOptions = [
             'http' => [
