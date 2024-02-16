@@ -1,18 +1,22 @@
-.google-search-results {
-    list-style-type: none;
-    padding: 0;
+/* Grundlegende Stildefinitionen für die Anzeige der Suchergebnisse */
+.block_googlesearch .google-search-results {
+    list-style-type: none; /* Entfernt die Standard-Listensymbole für eine sauberere Darstellung */
+    padding: 0; /* Setzt den Innenabstand der Liste auf 0 für eine kompakte Anzeige */
 }
 
-.google-search-results li {
-    margin-bottom: 10px;
+/* Stildefinition für jedes Listenelement innerhalb der Suchergebnisse */
+.block_googlesearch .google-search-results li {
+    margin-bottom: 10px; /* Fügt einen unteren Außenabstand zwischen den Suchergebnissen hinzu für bessere Lesbarkeit */
 }
 
-.google-search-results li a {
-    text-decoration: none;
-    color: #239B56;
+/* Stildefinition für Links innerhalb der Suchergebnisse */
+.block_googlesearch .google-search-results li a {
+    text-decoration: none; /* Entfernt die Unterstreichung von Links für eine sauberere Optik */
+    color: #239B56; /* Setzt die Farbe der Links */
 }
 
-.google-search-results li a:hover {
-    text-decoration: underline;
+/* Stildefinition für Links innerhalb der Suchergebnisse beim Überfahren mit der Maus */
+.block_googlesearch .google-search-results li a:hover {
+    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Nutzer mit der Maus über einen Link fährt, um Interaktivität anzudeuten */
 }
 
