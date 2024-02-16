@@ -281,8 +281,6 @@ ssystemstoumi.engineer;
     ssl_certificate_key /etc/letsencrypt/live/ssystemstoumi.engineer/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-
 }
 server {
     listen 80;
